@@ -58,13 +58,33 @@ footer{background:#0d47a1;color:white;text-align:center;padding:25px;}
 </section>
 
 <section id="reviews">
-<h2>Customer Reviews⭐</h2>
-<div id="reviewsContainer"></div>
+<h2>Customer Reviews</h2>
+<div id="reviewsContainer" class="cards" style="margin-bottom: 30px;">
+  <div class="card">
+    <strong>Sarah M.</strong>
+    <div style="color: #fbc02d; margin: 5px 0;">★★★★★</div>
+    <p>Cooper's Cleaning did an amazing job on our driveway and back patio! They were professional, on time, and everything looks brand new.</p>
+  </div>
+  <div class="card">
+    <strong>James T.</strong>
+    <div style="color: #fbc02d; margin: 5px 0;">★★★★★</div>
+    <p>Fantastic service. Removed years of grime from our vinyl siding in no time. Highly recommend for anyone in Cumberland!</p>
+  </div>
+</div>
 
+<h3>Leave a Review</h3>
 <form id="reviewForm">
-<input type="text" id="reviewName" placeholder="Your Name" required>
-<textarea id="reviewText" placeholder="Tell us about your experience" required></textarea>
-<button type="submit">Submit Review</button>
+  <input type="text" id="reviewName" placeholder="Your Name" required>
+  <select id="reviewRating" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:8px;" required>
+    <option value="" disabled selected>Select Rating</option>
+    <option value="5">★★★★★ (5/5)</option>
+    <option value="4">★★★★☆ (4/5)</option>
+    <option value="3">★★★☆☆ (3/5)</option>
+    <option value="2">★★☆☆☆ (2/5)</option>
+    <option value="1">★☆☆☆☆ (1/5)</option>
+  </select>
+  <textarea id="reviewText" placeholder="Your Review" required></textarea>
+  <button type="submit">Submit Review</button>
 </form>
 </section>
 
