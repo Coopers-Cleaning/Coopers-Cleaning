@@ -4,17 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cooper's Cleaning | Pressure Washing Business</title>
-<meta name="description" content="Cooper's Cleaning provides professional pressure washing services in Cumberland.">
+<meta name="description" content="Cooper's Cleaning provides exterior cleaning and pressure washing services in Porter, TX. Contact at 346-530-5096 or Cooper'sCleaning@gmail.com.">
 <style>
 body{margin:0;font-family:Arial,sans-serif;background:#f7f9fc;color:#333;}
-header{background:linear-gradient(135deg,#0d47a1,#0288d1);color:white;text-align:center;padding:60px 20px;}
-nav{background:white;padding:15px;text-align:center;position:sticky;top:0;box-shadow:0 2px 10px rgba(0,0,0,.1);}
+header{background:linear-gradient(135deg,#0d47a1,#0288d1);color:white;text-align:center;padding:40px 20px;}
+.logo{max-width:150px;height:auto;margin-bottom:15px;border-radius:8px;}
+nav{background:white;padding:15px;text-align:center;position:sticky;top:0;box-shadow:0 2px 10px rgba(0,0,0,.1);z-index:1000;}
 nav a{margin:0 15px;text-decoration:none;color:#0d47a1;font-weight:bold;}
 section{max-width:1200px;margin:auto;padding:60px 20px;}
-.hero-btn{display:inline-block;background:white;color:#0d47a1;padding:15px 30px;border-radius:30px;text-decoration:none;font-weight:bold;}
+.hero-btn{display:inline-block;background:white;color:#0d47a1;padding:15px 30px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:15px;}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
-.card{background:white;border-radius:15px;padding:25px;box-shadow:0 4px 15px rgba(0,0,0,.05);transition:transform .2s;}
+.card{background:white;border-radius:15px;padding:25px;box-shadow:0 4px 15px rgba(0,0,0,.05);transition:transform .2s;display:flex;flex-direction:column;justify-content:between;}
 .card:hover{transform:translateY(-5px);}
+.price-tag{font-size:1.25rem;color:#0d47a1;font-weight:bold;margin-top:auto;padding-top:15px;}
 .gallery img{width:100%;height:200px;object-fit:cover;border-radius:10px;}
 form{background:white;padding:30px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.05);max-width:600px;margin:auto;}
 input,textarea,select{width:100%;padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:8px;box-sizing:border-box;}
@@ -22,57 +24,22 @@ button{background:#0d47a1;color:white;border:none;padding:12px 25px;border-radiu
 button:hover{background:#0288d1;}
 footer{background:#333;color:white;text-align:center;padding:20px;margin-top:40px;}
 
-/* Dashboard Breakdown Layout */
-.rating-dashboard {
-  background: white;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 15px rgba(0,0,0,.05);
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 30px;
-}
-.rating-big-score {
-  text-align: center;
-}
-.rating-big-score h1 {
-  font-size: 3.5rem;
-  margin: 0;
-  color: #0d47a1;
-}
-.rating-bars {
-  flex-grow: 1;
-}
-.bar-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 5px 0;
-}
-.bar-container {
-  flex-grow: 1;
-  background: #eee;
-  height: 10px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-.bar-fill {
-  background: #fbc02d;
-  height: 100%;
-  width: 0%;
-  transition: width 0.4s ease;
-}
-.star-color {
-  color: #fbc02d;
-}
+.rating-dashboard {background: white;border-radius: 15px;padding: 25px;box-shadow: 0 4px 15px rgba(0,0,0,.05);display: flex;align-items: center;gap: 40px;margin-bottom: 30px;}
+.rating-big-score {text-align: center;}
+.rating-big-score h1 {font-size: 3.5rem;margin: 0;color: #0d47a1;}
+.rating-bars {flex-grow: 1;}
+.bar-row {display: flex;align-items: center;gap: 10px;margin: 5px 0;}
+.bar-container {flex-grow: 1;background: #eee;height: 10px;border-radius: 5px;overflow: hidden;}
+.bar-fill {background: #fbc02d;height: 100%;width: 0%;transition: width 0.4s ease;}
+.star-color {color: #fbc02d;}
 </style>
 </head>
 <body>
 
 <header>
+<img src="logo.png" alt="Cooper's Cleaning Logo" class="logo" onerror="this.style.display='none'">
 <h1>Cooper's Cleaning</h1>
-<p>Professional Exterior Cleaning & Pressure Washing</p>
+<p>Exterior Cleaning & Pressure Washing</p>
 <a href="#booking" class="hero-btn">Get Free Estimate</a>
 </header>
 
@@ -84,37 +51,48 @@ footer{background:#333;color:white;text-align:center;padding:20px;margin-top:40p
 </nav>
 
 <section id="services">
-<h2>Our Services</h2>
+<h2>💵Our Services & Pricing</h2>
 <div class="cards">
-<div class="card">
-<h3>House Washing</h3>
-<p>Safe low-pressure soft washing removes algae, mold, and dirt from siding.</p>
+<div class="card"> 
+<h3>🏠House Washing</h3>
+<p>Safe low-pressure soft washing removes algae, mold, and dirt from vinyl and brick siding.</p>
+<div class="price-tag">Starting at $65-$120.</div>
 </div>
 <div class="card">
-<h3>Concrete Cleaning</h3>
-<p>High-pressure washing removes oil stains and grime from driveways and walkways.</p>
+<h3>🪵Fence Cleaning</h3>
+<p>High-pressure washing removes deep oil stains, mildew, and grime from driveways and walkways.</p>
+<div class="price-tag">Starting at $50-$75.</div>
 </div>
 <div class="card">
-<h3>Roof Cleaning</h3>
-<p>Gently eliminates dark streaks and moss without damaging your shingles.</p>
+<h3>♻️Patio and Driveway Cleaning</h3>
+<p>Restores pavers, concrete, or stone patios back to their original color safely.</p>
+<div class="price-tag">Starting at $50-$75.</div>
 </div>
+<div class="card">
+<h3>🗑️Trash Can Cleaning</h3>
+<p>Sanitizes, deodorizes, and pressure-washes dirty outdoor bins to kill bacteria.</p>
+<div class="price-tag">Starting at $20 per can $40-45 for two.</div>
+</div>
+<div class="card">
+<h3> 🎁Whole property bundle. 
+<p>(House, Driveway, Patio)
+  <div class="price-tag"> Starting at $220.
 </div>
 </section>
 
 <section id="gallery">
-<h2>Project Gallery</h2>
+<h2>📸Project Gallery</h2>
 <input type="file" id="photoUpload" multiple accept="image/*" style="margin-bottom:20px;">
 <div id="galleryContainer" class="cards gallery"></div>
 </section>
 
 <section id="reviews">
-<h2>Customer Reviews</h2>
-
+<h2>⭐Customer Reviews</h2>
 <div class="rating-dashboard">
   <div class="rating-big-score">
     <h1 id="avgScore">0.0</h1>
     <div id="avgStars" class="star-color" style="font-size: 1.2rem; margin: 5px 0;"></div>
-    <span id="totalCount" style="color: #666; font-size: 0.9rem;">Based on 0 reviews</span>
+    <span id="totalCount" style="color: #666; font-size: 0.9rem;">Based on 2 reviews</span>
   </div>
   <div class="rating-bars">
     <div class="bar-row"><span>5★</span><div class="bar-container"><div id="bar5" class="bar-fill"></div></div></div>
@@ -127,18 +105,18 @@ footer{background:#333;color:white;text-align:center;padding:20px;margin-top:40p
 
 <div id="reviewsContainer" class="cards" style="margin-bottom: 30px;">
   <div class="card" data-rating="5">
-    <strong>Sarah M.</strong>
+    <strong>Anonymous.</strong>
     <div class="star-color" style="margin: 5px 0; font-size: 1.1rem;">★★★★★</div>
     <p>Cooper's Cleaning did an amazing job on our driveway and back patio! They were professional, on time, and everything looks brand new.</p>
   </div>
   <div class="card" data-rating="5">
-    <strong>James T.</strong>
+    <strong>Anonymous.</strong>
     <div class="star-color" style="margin: 5px 0; font-size: 1.1rem;">★★★★★</div>
     <p>Fantastic service. Removed years of grime from our vinyl siding in no time. Highly recommend for anyone in Cumberland!</p>
   </div>
 </div>
 
-<h3>Leave a Review</h3>
+<h3>✅Leave a Review</h3>
 <form id="reviewForm">
   <input type="text" id="reviewName" placeholder="Your Name" required>
   <select id="reviewRating" style="background: white;" required>
@@ -155,7 +133,7 @@ footer{background:#333;color:white;text-align:center;padding:20px;margin-top:40p
 </section>
 
 <section id="booking">
-<h2>Request a Free Estimate</h2>
+<h2>📋Request a Free Estimate</h2>
 <form action="https://formsubmit.co/coopman9238@gmail.com" method="POST">
 <input type="hidden" name="_subject" value="New Estimate Request">
 <input type="text" name="name" placeholder="Full Name" required>
@@ -173,7 +151,8 @@ footer{background:#333;color:white;text-align:center;padding:20px;margin-top:40p
 <script>
 document.getElementById('photoUpload').addEventListener('change', function(e){
  const container=document.getElementById('galleryContainer');
- Array.from(e.target.files).forEach(file=>{\n   const reader=new FileReader();
+ Array.from(e.target.files).forEach(file=>{
+   const reader=new FileReader();
    reader.onload=function(ev){
      const img=document.createElement('img');
      img.src=ev.target.result;
@@ -183,11 +162,9 @@ document.getElementById('photoUpload').addEventListener('change', function(e){
  });
 });
 
-// Dynamic Summary Calculations Engine
 function calculateStats() {
   const reviews = document.querySelectorAll('#reviewsContainer .card');
   const total = reviews.length;
-  
   let sum = 0;
   let counts = { 5: 0, 4: 0, 3: 0, 2: 0, 1: 0 };
   
@@ -198,29 +175,23 @@ function calculateStats() {
   });
   
   const avg = total > 0 ? (sum / total).toFixed(1) : "0.0";
-  
-  // Update texts
   document.getElementById('avgScore').innerText = avg;
   document.getElementById('totalCount').innerText = `Based on ${total} review${total === 1 ? '' : 's'}`;
   
-  // Round avg for big star display
   const roundedAvg = Math.round(parseFloat(avg));
   document.getElementById('avgStars').innerText = '★'.repeat(roundedAvg) + '☆'.repeat(5 - roundedAvg);
   
-  // Update Distribution Progress Bars
   for(let i = 1; i <= 5; i++) {
     const pct = total > 0 ? (counts[i] / total) * 100 : 0;
     document.getElementById(`bar${i}`).style.width = pct + '%';
   }
 }
 
-// Intercept form data submission
 document.getElementById('reviewForm').addEventListener('submit', function(e){
  e.preventDefault();
  const name = document.getElementById('reviewName').value;
  const rating = parseInt(document.getElementById('reviewRating').value);
  const text = document.getElementById('reviewText').value;
- 
  const starString = '★'.repeat(rating) + '☆'.repeat(5 - rating);
  
  const container = document.getElementById('reviewsContainer');
@@ -235,12 +206,10 @@ document.getElementById('reviewForm').addEventListener('submit', function(e){
  
  container.appendChild(newReview);
  this.reset();
- calculateStats(); // Re-index dashboard calculations dynamically
+ calculateStats();
 });
 
-// Initial load computation
 calculateStats();
 </script>
-
 </body>
 </html>
